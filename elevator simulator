@@ -1,0 +1,32 @@
+import java.util.Scanner;  
+public class ElevatorSimulator{
+  public static void main(String [] args){
+
+  Scanner in = new Scanner(System.in);
+  
+  System.out.print("Enter floor: ");
+  
+  int floor = in.nextInt();
+  
+  int actualFloor;
+  
+  if( floor > 20)
+  {
+    actualFloor = floor - 2;
+  }
+  
+  else
+  {
+    actualFloor = floor;
+    
+  }
+  
+  System.out.println("The elevator will go to floor " + actualFloor);
+
+
+
+
+
+  }
+
+}
